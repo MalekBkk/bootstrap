@@ -1,0 +1,50 @@
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: aqua;
+}
+
+
+.box {
+    height: 50vh;
+    margin: auto;
+    justify-content: space-between;
+    padding-left: 2cm;
+    
+}
+
+.bar {
+    height: 5vh;}
+
+ .case {
+    height: 20vh;
+    width: 4cm;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-left: auto;
+    display: inline-block;
+    background-color: blue;
+
+
+ } 
+ 
+ @media only screen and ( min-width: 786px) {
+     .case {
+         display: block;
+         width: 4cm;
+         height: 20vh;
+         margin: 20px ;
+         background-color: blue;
+
+     }
+ }
